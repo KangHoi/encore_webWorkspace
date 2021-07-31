@@ -15,13 +15,13 @@ insert into item values(
 
 insert into item values(
 2222,'포도',5000,
-'철분이 많고 조혈 작용을 해 임산부 및 여성에게 일어나기 쉬운 빈혈을 예방한다',
+'철분이 많고 조혈 작용을 해 임산부, 여성에게 일어나기 쉬운 빈혈을 예방한다',
 'img/grape.jpg',0
 );
 
 insert into item values(
 3333,'귤',4000,
-'눈 건강 살리고 피로 회복. 혈압 안정시키는 비타민 A 가많다',
+'눈 건강 살리고 피로 회복, 혈압 안정시키는 비타민 A 가많다',
 'img/gual.jpg',0
 );
 

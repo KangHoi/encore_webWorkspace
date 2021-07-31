@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;web34_FruitCart/src/ServletController&apos;&#x0D;&#x0A;- Original project: &apos;web22_FactoryPattern&apos;&#x0D;&#x0A;- Destination element: &apos;web34_FruitCart/src/ServletController&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     servlet.controller.ModelAndView.java&#x0D;&#x0A;     servlet.controller.Controller.java&#x0D;&#x0A;     servlet.controller.HandlerMapping.java" description="Copy compilation units" destination="=web34_FruitCart/src&lt;ServletController" element1="/src&lt;servlet.controller{ModelAndView.java" element2="/src&lt;servlet.controller{Controller.java" element3="/src&lt;servlet.controller{HandlerMapping.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1618887685519" units="3" version="1.0"/>
+</session>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	#wrap {
+		text-align: center;
+		width: 600px;
+		height: 200px;
+		border: 1px solid;
+		margin: 0 auto;
+	}
+	img {
+		float: left;
+		width: 200px;
+		height: 200px;
+	}
+	hr {
+		border: 1px solid gray;
+		border-style: dotted;
+		width: 50%;
+	}
+</style>
+</head>
+<body>
+	<div id="wrap">
+		<img src="img/book.jpg">
+		<form action="MainServlet" method="post">
+			<h3>로그인하여 주세요</h3>
+			ID <input type="text" name="id" required><br>
+			PASSWORD <input type="password" name="password" required><br><br>
+			<hr>
+			<input type="submit" value="LOGIN">
+		</form>
+	</div>
+</body>
+</html>

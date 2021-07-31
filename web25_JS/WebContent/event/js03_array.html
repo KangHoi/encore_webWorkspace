@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+	function choiceAngel(){
+		var arr = document.frm.angel;
+		//alert(arr.length); //박스 폼 갯수 리턴.. 배열인지 확인 가능
+		
+		/*
+		하나라도 선택하지 않았다면 한 명의 이상형을 선택하라는 alert띄우기
+		하나 이상 선택했다면 선택한 이상형을 alert창으로 출력
+		*/
+		var str="";
+		for(var i=0; i<arr.length; i++){
+			if(arr[i].checked){//체크박스의 폼을 체크했는지..선택하면 true
+				str+= arr[i].value+" ";
+			}//
+			
+				arr[i].checked = false;
+
+			}
+			
+			if(str =="") alert("하나라도 선택해주세요");
+			else alert("당신의 이상형은 " +str +" 입니다.");
+
+		}
+</script>
+</head>
+<body>
+<form name = "frm">
+	<strong>이상형 선택(중복 선택 가능)</strong><br><br>
+	<input type="checkbox" name="angel" value="아이유">아이유<br>
+	<input type="checkbox" name="angel" value="김민경">김민경<br>
+	<input type="checkbox" name="angel" value="박세리">박세리<br>
+	<input type="checkbox" name="angel" value="김소연">김소연<br>
+	<input type="checkbox" name="angel" value="현아">현아<br>
+	<input type="button" value="choice" onclick="choiceAngel()">
+</form>
+
+</body>
+</html>

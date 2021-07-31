@@ -1,0 +1,65 @@
+<!-- 
+앞의 js11.html 참조하여 작성합니다.
+해보기
+Student 생성자 함수를 선언
+인자값 - name, java성적, python성적, html성적 :: 속성정의 부분
+함수1 (점수의 총합) : total
+함수2 (점수의 평균) : avg
+함수3 (정보 출력) : record
+
+이름     java       python     html     총점     평균
+James1   89        90         100      179     90
+James2   89        90         100      179     90
+James3   89        90         100      179     90
+
+
+학생 2명 이상 생성.. 현재 3명 출력화면
+body 부분 특정 영역 안에 출력하기. table형식
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h2></h2>
+
+<script type="text/javascript">
+	function Student(name, java, python, html){
+		this.name = name;
+		this.java = java;
+		this.python = python;
+		this.html = html;
+	
+	
+		this.total = function(){
+			return this.java + this.python + this.html;
+		}
+	
+		this.avg = function(){
+			return (this.java + this.python + this.html)/3;
+		}
+	
+	//es6
+		this.record = function(){
+		document.write(`<tr><td>${this.name}</td><td>${this.java}</td><td>${this.python}</td><td>${this.html}</td><td>${this.total()}</td><td>${this.avg()}</td></tr>`);
+		}
+	}
+	
+	
+	
+	var stu1 = new Student('James', 89, 90, 64);
+	var stu2 = new Student('Alex', 79, 88, 59);
+	var stu3 = new Student('Rose', 91, 78, 96);
+	
+	document.write('<table border=1><tr><th>이름</th><th>자바</th><th>파이썬</th><th>html</th><th>총점</th><th>평균</th></tr>');
+	
+	stu1.record();
+	stu2.record();
+	stu3.record();
+
+</script>
+</body>
+</html>

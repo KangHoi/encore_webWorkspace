@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	body{
+	/*내가 계산한대로 적용된다.*/
+		margin:0;
+	} 
+	
+	.menu{
+		background-color : black;
+		color: gray;
+		padding: 20px;
+		text-align: center;
+		word-spacing: 200px;
+
+	}
+	.menu>p{
+		word-spacing: 200px;
+	}
+
+</style>
+</head>
+<body>
+
+
+	<div class=title>
+	<h2> <b>엔코아 극장 </b></h2>
+	</div>
+	
+	<div class=menu>
+ 		<p><b>영화</b> 극장 예매 이벤트 	<p>
+ 		<img src="img/rss.png"> 상영영화소개RSS </img>
+ 		
+	</div>
+	
+	<div class=group.cinema>
+		<h2> 무공해 힐링 시네마 </h2>
+		<hr>
+		<p>무공해 힐링 시네마는 새로운 개념의 영화장르의 한 가지를 말하는 것입니다.
+		지친 영혼을 위한 휴식을 주는 영화나 마음을 정화시키고 치유하는 힘을 가진 영화를
+		상영합니다...
+		</p>
+		<img src = "img/intro_flower.png"/ >
+		<img src = "img/movie_image.jpg"/ >
+		
+	</div>
+	
+	<div class=group.movieTitle>
+		<h2> <b> 쿵 푸 팬 더 </b></h2>
+	</div>
+	
+	<div class=group.movieInfo> <i>
+		<p>개 봉  2011.05.26</p><br><br>
+		<p>감 독 <a href="#"><ul>여 인 영</ul></a></p><br><br>
+		<p>등 급 [국내] 전체 관람가 </p><br><br>
+	</i> </div>
+	
+	<div cladd = group.movieStory>
+		<p>하.면.된.다 - 포.스.작.렬</p>
+	</div>
+	
+	<div class=group.movieContents>
+		<p>‘평화의 계곡’에서 아버지의 국수 가게를 돕고 있는 팬더, 포. 
+		아버지는 국수의 비법을 알려주어 가업을 잇게 하고 싶지만, 
+		포의 관심사는 오로지 '쿵푸 마스터'. 
+		가게 일은 뒷전으로 하고 쿵푸의 비법이 적힌 용문서의 전수자를 
+		정하는 ‘무적의 5인방’ 대결을 보러 시합장을 찾은 포, 
+		그런데 이게 웬일! 마을의 현인 우그웨이 대사부가 포를 용문서의 전수자로 점지하는 이변이 일어난다. 
+		무적의 5인방은 물론 시푸 사부 역시 이 사태를 받아들이지 못하는 가운데, 
+		용문서를 노리고 어둠의 감옥에서 탈출한 타이렁이 마을을 습격해오자 그를 
+		막아야 하는 미션이 포에게 떨어지는데... 포는 쿵푸마스터로 거듭날 수 있을까? 아니... 포가 쿵푸를 할 수는 있을까?
+		 똥배 안에 숨겨진 포스를 깨우기 위한 포의 도전이 시작된다!</p>
+		 <img src="img/movie_image3.jpg"/>
+		 <video src = "https://youtu.be/XDncZq_zVNs" controls></video>
+	</div>
+	
+	<div class=group.movies>
+		<h3>Movies</h3>
+		<p>현재 상영작</p>
+		<p>상영 예정작</p>
+		<p>영화 뉴스</p>
+		<p>테마 뉴스</p>
+		<p>맥스무비 예매순위</p>
+	</div>
+
+
+</body>
+</html>

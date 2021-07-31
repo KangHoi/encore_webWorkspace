@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>선언적 함수 재정의 동작원리1</title>
+<script>
+	function calc(x, y){
+		return x+y;
+	}
+	console.log(calc(5,3)); //8.. 먼저 생성 --> 나중에 생성된것으로 바뀌어 나옴.. 15
+	
+	function calc(x, y){
+		return x*y;
+	}
+	console.log(calc(5,3)); //15 .. 나중에생성
+</script>
+</head>
+<body>
+
+</body>
+</html>

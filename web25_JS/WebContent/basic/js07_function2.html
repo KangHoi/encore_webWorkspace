@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>익명 함수 재정의 동작원리2</title>
+<script>
+	var calc = function(x, y){
+		return x+y;
+	}
+	console.log(calc(5,3)); //8
+	
+	var calc = function calc(x, y){
+		return x*y;
+	}
+	console.log(calc(5,3)); //15 
+	
+	//각각 따로 작동된다. 따라서 8, 15 따로 출력됨
+</script>
+</head>
+<body>
+
+</body>
+</html>

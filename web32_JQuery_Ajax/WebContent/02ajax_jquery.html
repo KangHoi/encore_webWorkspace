@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+   	$(function() {
+   	$('#ajaxBtn').click(function(){//버튼을 클릭하면 Ajax 연결되도록 로직 작성
+   			//alert("ajax....");
+   		var id=$('#id').val();
+   			$.ajax({
+   				type:"post",
+   				url:"JQueryAjax",
+   				data:{"id":id},
+   				
+   				//서버측에서 보내는 데이터를 받아서 응답하는 callBack함수를 호출
+   				success: function(result){
+   					//alert(result);
+   					$('#resultView').html(result)
+   				},
+   				//에러가 발생되면 호출되는 callBack함수 연결
+   				error:function(xhr, status, message){
+   					//alert("응답시간 지연..Error.. "+message + "status: " + status); 
+   					alert("error::"+ message); 
+   			
+   				},
+   				timeout:1000 //1초 동안 서버로부터 응답 없으면 에러 발생(응답 대기시간 지정)
+   			}); //ajax
+   		}); //click
+
+		
+	}); //ready
+</script>
+<style type="text/css">
+
+</style>
+</head>
+<body>
+	ID:<input type="text" name="id" id="id">
+	<input type="button" value="JQueryAjax" id="ajaxBtn">
+	<div id="resultView"></div>
+</body>
+</html>

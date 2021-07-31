@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;web33_Algorithm_Ajax/WebContent/result.jsp&apos; to &apos;Result.jsp&apos;" description="Rename resource &apos;result.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/result.jsp" name="Result.jsp" stamp="1618810510198" updateReferences="true"/>&#x0A;<refactoring comment="Move &apos;input.txt&apos; to &apos;res&apos;" description="Move &apos;input.txt&apos; to &apos;res&apos;" destination="WebContent/res" element1="input.txt" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1618811118495" updateReferences="true"/>
+</session>

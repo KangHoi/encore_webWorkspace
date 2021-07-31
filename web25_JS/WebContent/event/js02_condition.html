@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+/*
+입력된 나이가 19세 이상이면 "성인입니다. 입장 가능" alert창 띄우고
+19세 미만이면 "입장 불가" 메세지띄우고
+위 작업 모두 진행 후 입력박스 값 초기화, 커서 다시 위치
+
+만약 입력된 값 없므연 값 입력 안내 메세진s alert띄우고
+숫자 대신 문자 입력시 나이는 숫자로 입력바란다는 메세지 alert창 띄우고
+*/
+function checkAge(){
+	var age =document.ageFrm.age;
+	if(age.value==""){
+		alert("나이를 입력하세요");
+	}else if(isNaN(age.value)){
+		alert("숫자로 입력하세요");
+	}else if(age.value >= 19){
+		alert("성인인증 실시");
+	}else{
+		alert("미성년자 불가");
+	}
+		
+}
+</script>
+</head>
+<body>
+	<form name = "ageFrm">
+		나이 <input type="text" name="age>
+		<input type="button" value="나이 확인" onclick="checkAge()">
+	</form>
+
+</body>
+</html>

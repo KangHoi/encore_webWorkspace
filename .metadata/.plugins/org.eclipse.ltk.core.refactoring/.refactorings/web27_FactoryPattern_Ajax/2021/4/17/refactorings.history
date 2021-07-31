@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 packages to &apos;web31_JQueryUI/src&apos;&#x0D;&#x0A;- Original project: &apos;web27_FactoryPattern_Ajax&apos;&#x0D;&#x0A;- Destination element: &apos;web31_JQueryUI/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     web27_FactoryPattern_Ajax/src/filter&#x0D;&#x0A;     web27_FactoryPattern_Ajax/src/servlet.controller" description="Copy packages" destination="=web31_JQueryUI/src" element1="/src&lt;filter" element2="/src&lt;servlet.controller" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1618814243890" version="1.0"/>
+</session>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css"> 
+	/* input:disabled{background: gray;} 속성이름만 가지고왔다  */
+	/*속성이름이 같을 경우 아래처럼 속성 값도 가지고 와야함*/
+	input[disabled=disabled] {background: gray;}
+
+</style>
+</head>
+<body>
+<h2>State Attribute</h2>
+<form>
+	<h3>Enabled</h3>
+/*	<input enabled="enabled"/> */
+	<input />
+	
+	
+	<h3>Disabled</h3>
+	<input disabled="disabled" />
+	
+	<h3>Readonly</h3>
+	<input readonly="readonly"/>
+	
+	<h3>Required</h3>
+	<input required="required"/>
+	
+</form>
+</body>
+</html>

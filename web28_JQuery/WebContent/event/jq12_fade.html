@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>show() hide() || fadeIn() fadeOut()</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+   	$(function() {
+		//1. 이미지가 처음 로딩되었을 때 보이지 않도록 감춘다. hide() | show()
+		$('#imageView').hide();
+		
+		//2. 마우스가 특정 영역 안에 들어가면 보이고, 나오면 감춰지고
+/*		$('#mouseIn').mouseenter(function(){
+			//$('#imageView').show(3000);
+			$('#imageView').fadeIn();
+		});
+		
+		$('#mouseIn').mouseleave(function(){
+			//$('#imageView').hide(1000);
+			$('#imageView').hide(3000);
+		}); */
+		
+		//3.hover함수를 이용해 위와 동일한 효과
+		$('#mouseIn').hover(function(){
+			$('#imageView').show(3000);
+		}, function(){
+			$('#imageView').hide(1000);
+		});
+		
+		
+	}); 
+</script>
+<style type="text/css">
+	#mouseIn{background: yellow;}
+</style>
+</head>
+<body>
+<h2 id="mouseIn">++++++++++++ 사진 보이기 +++++++++++++</h2>
+<div id="imageView">
+	<img alt="" src="../image/1.jpg" width="300" height="400">
+	
+</div>
+</body>
+</html>

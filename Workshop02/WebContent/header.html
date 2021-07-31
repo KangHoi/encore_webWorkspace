@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Http Header Information...</title>
+<style>
+
+#wrap{ 	text-align:left; 
+		width: 600px;
+		height: 200px;
+		border: 1px solid;
+		margin: 0 auto;
+}
+hr{ border:1px solid gray;
+	}
+</style>
+</head>
+
+<body>
+<div id="wrap">
+<h2 align="center">Http Header Information...</h2>
+<form action="PHP"  method="post">
+ID : <input type="text" name="id"><br>
+PASS :  <input type="password" name="pass" ><br>
+<input type="submit" value="Send">
+<hr>
+<!-- (get 방식으로) 서블릿 연결 시 name, address 값도 같이 전송되도록 -->
+<b><a href="PHP?name=KangHoi&addr=Incheon">PrintHeaderServlet으로 연결합니다.</a></b><br>
+
+<form action="LoginInfo"  method="POST">
+<a href='PHP?name=하바리&address=약수'></a>
+
+
+
+</form>
+</div>
+</body>
+
+</html>

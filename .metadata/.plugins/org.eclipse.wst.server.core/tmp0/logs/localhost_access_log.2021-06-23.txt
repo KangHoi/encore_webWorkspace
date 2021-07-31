@@ -1,0 +1,8 @@
+127.0.0.1 - - [23/Jun/2021:14:10:05 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [23/Jun/2021:14:10:08 +0900] "GET /web34_FruitCart/index.jsp HTTP/1.1" 200 318
+0:0:0:0:0:0:0:1 - - [23/Jun/2021:14:11:03 +0900] "GET /web34_FruitCart/itemList.do HTTP/1.1" 200 1253
+0:0:0:0:0:0:0:1 - - [23/Jun/2021:14:11:03 +0900] "GET /web34_FruitCart/img/berry.jpg HTTP/1.1" 200 68903
+0:0:0:0:0:0:0:1 - - [23/Jun/2021:14:11:03 +0900] "GET /web34_FruitCart/img/grape.jpg HTTP/1.1" 200 36844
+0:0:0:0:0:0:0:1 - - [23/Jun/2021:14:11:03 +0900] "GET /web34_FruitCart/img/gual.jpg HTTP/1.1" 200 56963
+0:0:0:0:0:0:0:1 - - [23/Jun/2021:14:11:03 +0900] "GET /web34_FruitCart/img/kiui.jpg HTTP/1.1" 200 71719
+0:0:0:0:0:0:0:1 - - [23/Jun/2021:14:11:03 +0900] "GET /web34_FruitCart/img/lemon.jpg HTTP/1.1" 200 51523

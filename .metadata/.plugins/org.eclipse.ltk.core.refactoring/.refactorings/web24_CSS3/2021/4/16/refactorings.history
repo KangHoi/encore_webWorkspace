@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;img&apos; to &apos;web25_JS&apos;&#x0D;&#x0A;- Original project: &apos;web24_CSS3&apos;&#x0D;&#x0A;- Destination element: &apos;web25_JS&apos;&#x0D;&#x0A;- Original element: &apos;img&apos;" description="Copy folder" element1="WebContent/img" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1618204467563" target="/web25_JS" units="0" version="1.0"/>
+</session>

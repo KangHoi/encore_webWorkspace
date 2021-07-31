@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+   	$(function() {
+		//첫번째 h2태그를 클릭하면 함수
+	/*	$('h2:eq(0)').click(function(){
+			//클릭한 부분이 'click'으로 바뀌도록.. red
+			$(this).html('<font color=red>CLICK</font>');	
+			alert('click() Calling...');
+			
+			//클릭 이벤트가 더 이상 작동되지 않도록 한다
+			$(this).unbind(); */
+			
+		$('h2:eq(0)').bind('click',function(){
+			//클릭한 부분이 'click'으로 바뀌도록.. red
+			$(this).html('<font color=red>CLICK</font>');	
+			alert('click() Calling...');
+			
+			//클릭 이벤트가 더 이상 작동되지 않도록 한다
+			$(this).unbind();
+		});//click 
+		
+	}); 
+</script>
+<style type="text/css">
+
+</style>
+</head>
+<body>
+
+	<h2>By design, any jQuery constructor or method that accepts an HTML string — jQuery(), .append(), .after(), etc. — can potentially execute code. This can occur by injection of script tags or use of HTML attributes that execute code (for example, <img onload="">). Do not use these methods to insert strings obtained from untrusted sources such as URL query parameters, cookies, or form inputs. Doing so can introduce cross-site-scripting (XSS) vulnerabilities. Remove or escape any user input before adding content to the document.</h2>
+	<h2>jQuery doesn't officially support SVG. Using jQuery methods on SVG documents, unless explicitly documented for that method, might cause unexpected behaviors. Examples of methods that support SVG as of jQuery 3.0 are addClass and removeClass.</h2>
+	<h2>Category: Global Ajax Event Handlers These methods register handlers to be called when certain events, such as initialization or completion, take place for any Ajax request on the page. The global events are fired on each Ajax request if the global property in jQuery.ajaxSetup() is true, which it is by default. </h2>
+
+</body>
+</html>

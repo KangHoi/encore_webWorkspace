@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;filter&apos; to &apos;web26_JS_Ajax/src&apos;&#x0D;&#x0A;- Original project: &apos;web16_FrontControllerPatter&apos;&#x0D;&#x0A;- Destination element: &apos;web26_JS_Ajax/src&apos;&#x0D;&#x0A;- Original element: &apos;web16_FrontControllerPatter/src/filter&apos;" description="Copy package" destination="=web26_JS_Ajax/src" element1="/src&lt;filter" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1618275808387" version="1.0"/>
+</session>

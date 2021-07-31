@@ -1,0 +1,5 @@
+127.0.0.1 - - [27/Apr/2021:09:46:18 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [27/Apr/2021:09:46:22 +0900] "GET /web27_FactoryPattern_Ajax/index.jsp HTTP/1.1" 200 1045
+0:0:0:0:0:0:0:1 - - [27/Apr/2021:09:46:23 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [27/Apr/2021:09:46:28 +0900] "GET /web27_FactoryPattern_Ajax/login.jsp HTTP/1.1" 200 380
+0:0:0:0:0:0:0:1 - - [27/Apr/2021:09:47:33 +0900] "POST /web27_FactoryPattern_Ajax/login.do HTTP/1.1" 200 564

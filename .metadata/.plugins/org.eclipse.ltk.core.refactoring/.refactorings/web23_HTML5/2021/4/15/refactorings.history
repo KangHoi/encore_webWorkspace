@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;web23_HTML5/WebContent/movie.jpeg.crdownload&apos; to &apos;movie.jpㅎ&apos;" description="Rename resource &apos;movie.jpeg.crdownload&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/movie.jpeg.crdownload" name="movie.jpㅎ" stamp="1617859203969" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;web23_HTML5/WebContent/movie.jpㅎ&apos; to &apos;movie.jpg&apos;" description="Rename resource &apos;movie.jpㅎ&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/movie.jpㅎ" name="movie.jpg" stamp="1617859210326" updateReferences="true"/>
+</session>

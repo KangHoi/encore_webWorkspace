@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+
+var key, val, entries;
+
+   	$(function() {
+   		showAll(); //로컬스토리지에 저장된 값을 전부 불러오기
+   		
+		$('#save').click(function(){
+			var kval= $('#k').val(); //키값
+			var vval= $('#v').val(); //value 값
+			
+			localStorage.setItem(kval, vval);//map방식으로 저장
+			$('#k').val("");
+			$('#v').val(""); //리셋 효과
+			$('#k').focus();
+			showAll();
+		});//click
+		
+		$('#remove').click(function(){
+			var kval=$('#k').val();
+			localStorage.removeItem(kval);
+			$('#k').val("");
+			$('#v').val("");
+			showAll();
+			
+		});
+		
+		$('#entries').change(function(){
+			var str = $(this).val();	//name: 강호이
+			$('#k').val(str);
+		});
+		
+	}); //ready
+	
+	//JavaScript..
+	function showAll(){
+		key = document.getElementById("k");//
+		key = document.getElementById("v");//
+		entries = document.getElementById("entries");//
+		
+		entries.innerHTML = ""; //이전에 select에 출력되어져있던 것들을 모두 삭제
+		for(var i =0; i<localStorage.length; i++){
+			var k = localStorage.key(i);
+			entries.options[entries.options.length] = new Option(k+": " + localStorage[k], k) 
+			//옵션 크기만큼 배열 만들고 for문 돌면서 option 배열 생성
+		}
+	}
+</script>
+<style type="text/css">
+
+</style>
+</head>
+<body>
+	<h1>LocalStorage View</h1>
+	키 : <input type="text" id="k"> <br>
+	값 : <input type="text" id="v"> <br><br>
+	
+	<button id="save"> 저장 </button>
+	<button id="remove"> 삭제 </button>
+	<hr>
+	<select id="entries" size=5></select>
+	
+
+</body>
+</html>
